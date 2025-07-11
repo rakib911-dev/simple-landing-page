@@ -161,6 +161,7 @@ form input[type="email"], form input[type="text"], form textarea{
     font-size: 100px;
     font-weight:bolder;
     color: #4E47FF;
+    margin-top: 0;
 }
 .footer-description{
     color: rgba(137, 135, 161, 1);
@@ -199,4 +200,7 @@ footer{
 }
 .ahsan5{
     height: 150px;
+}
+footer{
+    height: 228px;
 }
