@@ -1,0 +1,202 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px 50px 150px;
+}
+
+.nav-title{
+    font-size: 34px;
+    font-weight: black;
+}
+
+.text-primary{
+    color: #4E47FF;
+}
+
+.btn-primary {
+  background-color: #4E47FF;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #FFD700;
+  color: black;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    margin-bottom: 37px;
+}
+
+body{
+    background-image: url(../images/Hero-bg.png);
+    background-size:auto;
+    background-position:top;
+    background-repeat: no-repeat;
+
+}
+.text-center{
+    text-align: center;
+}
+.banner-content{
+    margin-bottom: 152px;
+}
+.new-section{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-title2{
+    font-weight: bold;
+    font-size: 42px;
+}
+.section-description{
+    font-size: 24px;
+}
+.webimg{
+    border-radius: 25px;
+}
+.banner-title3{
+    font-weight: bold;
+    font-size: 38px;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0px;
+}
+.item-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+.about{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 120px;
+    margin-top: 110px;
+    margin-bottom: 130px;
+    border-radius: 20px;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.review{
+    padding: 30px;
+    background-color: #F2EDED;
+    border-radius: 10px;
+}
+.flex-container{
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    gap: 10px;
+}
+.cards{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.touch{
+    font-weight: bold;
+    font-size: 97px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+form input[type="email"], form input[type="text"], form textarea{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.secondary-bg{
+    background-color: aliceblue;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight:bolder;
+    color: #4E47FF;
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+}
+footer{
+    padding: 100px 400px;
+    background-color:#F2EDED;
+}
+.pro-img{
+    border-radius: 50%;
+}
+.date{
+    color: darkgrey;
+}
+.goodbye{
+    margin-top: 8px;
+}
+.last-title{
+    margin-bottom: 0;
+}
+.ahsan-habib{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.ahsan{
+    list-style: none;
+    color: #8987A1;
+    cursor: pointer;
+}
+.ahsan:hover{
+    color: red;
+}
+.ahsan1{
+    width:110%;
+}
+.ahsan5{
+    height: 150px;
+}
