@@ -14,10 +14,10 @@ A basic landing page layout built using only *HTML5* and *pure CSS*. This versio
 ---
 
 ## 🗂️ Folder Structure
-Ahsan
 simple-landing-page/
 ├── index.html
-└── style.css
+├── style.css
+└── assets
 ---
 
 ## 🚀 How to Use
